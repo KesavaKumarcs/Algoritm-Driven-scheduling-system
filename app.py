@@ -1,20 +1,20 @@
+import streamlit as st
 
-"""
-╔══════════════════════════════════════════════════════════════════════════════════╗
-║                        univ-scheduler — app.py                                 ║
-║         Single-file: All DSA Backend (top) → Streamlit Frontend (bottom)       ║
-╠══════════════════════════════════════════════════════════════════════════════════╣
-║  Run: streamlit run app.py                                                     ║
-╚══════════════════════════════════════════════════════════════════════════════════╝
-"""
+st.set_page_config(page_title="UniSched", layout="wide")
 
-# ████████████████████████████████████████████████████████████████████████████████
-# ██                                                                            ██
-# ██                     SECTION 1 — DSA BACKEND                               ██
-# ██   GraphColoring · NQueens · MinHeap · PriorityQueue · TopologicalSort     ██
-# ██                   BloomFilter · UnionFind · Backtracking                  ██
-# ██                                                                            ██
-# ████████████████████████████████████████████████████████████████████████████████
+st.title("🎓 UniSched: Academic Scheduling System")
+
+st.write("Welcome! Your app is running successfully 🚀")
+
+st.markdown("### Features:")
+st.write("1. 📅 Time Table Scheduler")
+st.write("2. 🪑 Exam Seating Arrangement")
+st.write("3. 📝 Assignment Scheduler")
+
+# ============================================================
+# univ-scheduler — app.py
+# Single-file: DSA Backend + Streamlit Frontend
+# ============================================================
 
 import math
 import random
